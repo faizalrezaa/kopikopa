@@ -60,7 +60,7 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        className={`${isOpen ? "grid-rows-[1fr] opacity-100 " : "grid-rows-[0fr] opacity-0"} grid transition-all  ease-in-out duration-600 xl:hidden`}
+        className={`${isOpen ? "grid-rows-[1fr] opacity-100 " : "grid-rows-[0fr] opacity-0"} grid transition-all  ease-in-out duration-300 xl:hidden`}
       >
         <div className="overflow-hidden">
           <div
