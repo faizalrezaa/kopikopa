@@ -3,26 +3,31 @@
 @font-face {
   font-family: old;
   src: url("/src/assets/fonts/OldStandardTT-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: poppins-md;
   src: url("/src/assets/fonts/Poppins-Medium.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: poppins-rg;
   src: url("/src/assets/fonts/Poppins-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: poppins-l;
   src: url("/src/assets/fonts/Poppins-Light.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: poppins-el;
   src: url("/src/assets/fonts/Poppins-ExtraLight.ttf");
+  font-display: swap;
 }
 
 @theme {
