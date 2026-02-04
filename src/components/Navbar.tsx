@@ -62,33 +62,35 @@ const Navbar = () => {
       <div
         className={`${isOpen ? "grid-rows-[1fr] opacity-100 " : "grid-rows-[0fr] opacity-0"} grid transition-all  ease-in-out duration-600 xl:hidden`}
       >
-        <div
-          className={`overflow-hidden flex flex-col justify-center items-center gap-4 font-poppins-md bg-primary pb-9  `}
-        >
-          <HashLinkSmooth
-            to="/#about-us"
-            className=" text-eb bg-primary md:text-xl"
+        <div className="overflow-hidden">
+          <div
+            className={` flex flex-col justify-center items-center gap-4 font-poppins-md bg-primary pb-9  `}
           >
-            TENTANG KAMI
-          </HashLinkSmooth>
-          <HashLinkSmooth
-            to="/#products"
-            className=" text-eb bg-primary md:text-xl"
-          >
-            PRODUK
-          </HashLinkSmooth>
-          <HashLinkSmooth
-            to="/#location"
-            className=" text-eb bg-primary md:text-xl"
-          >
-            LOKASI
-          </HashLinkSmooth>
-          <HashLinkSmooth
-            to="/call-us"
-            className="bg-tertiary text-primary px-5 py-3 text-sm rounded-4xl font-poppins-md  cursor-pointer"
-          >
-            Hubungi Kami
-          </HashLinkSmooth>
+            <HashLinkSmooth
+              to="/#about-us"
+              className=" text-eb bg-primary md:text-xl"
+            >
+              TENTANG KAMI
+            </HashLinkSmooth>
+            <HashLinkSmooth
+              to="/#products"
+              className=" text-eb bg-primary md:text-xl"
+            >
+              PRODUK
+            </HashLinkSmooth>
+            <HashLinkSmooth
+              to="/#location"
+              className=" text-eb bg-primary md:text-xl"
+            >
+              LOKASI
+            </HashLinkSmooth>
+            <HashLinkSmooth
+              to="/call-us"
+              className="bg-tertiary text-primary px-5 py-3 text-sm rounded-4xl font-poppins-md  cursor-pointer"
+            >
+              Hubungi Kami
+            </HashLinkSmooth>
+          </div>
         </div>
       </div>
     </nav>
