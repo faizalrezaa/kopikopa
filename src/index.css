@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: old;
+  src: url("/src/assets/fonts/OldStandardTT-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-md;
+  src: url("/src/assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: poppins-rg;
+  src: url("/src/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-l;
+  src: url("/src/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: poppins-el;
+  src: url("/src/assets/fonts/Poppins-ExtraLight.ttf");
+}
+
+@theme {
+  --font-old: old, "serif";
+  --font-poppins-el: poppins-el, "sans-serif";
+  --font-poppins-l: poppins-l, "sans-serif";
+  --font-poppins-reg: poppins-rg, "sans-serif";
+  --font-poppins-md: poppins-md, "sans-serif";
+
+  --color-primary: #faf9f6;
+  --color-secondary: #c8c5c1;
+  --color-tertiary: #514a41;
+  --color-eb: #1a1a1a;
+}
+
+@layer base {
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+}
