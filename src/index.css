@@ -32,10 +32,10 @@
 
 @theme {
   --font-old: old, "serif";
-  --font-poppins-el: poppins-el, "sans-serif";
-  --font-poppins-l: poppins-l, "sans-serif";
-  --font-poppins-reg: poppins-rg, "sans-serif";
-  --font-poppins-md: poppins-md, "sans-serif";
+  --font-poppins-el: poppins-el, "erif";
+  --font-poppins-l: poppins-l, "serif";
+  --font-poppins-reg: poppins-rg, "serif";
+  --font-poppins-md: poppins-md, "serif";
 
   --color-primary: #faf9f6;
   --color-secondary: #c8c5c1;

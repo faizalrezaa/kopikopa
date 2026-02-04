@@ -23,9 +23,13 @@ const Accordion = ({ question, answer, isOpen, callback }: FaqItem) => {
         </div>
 
         <div
-          className={`${isOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"} overflow-hidden font-poppins-el transition-all duration-700 ease-in -mt-4 pb-7 w-64 md:text-lg md:max-w-96 xl:text-xl xl:w-250 xl:font-poppins-l`}
+          className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} grid transition-all duration-400 ease-in `}
         >
-          {answer}
+          <div
+            className={`overflow-hidden -mt-4 pb-7 w-64 md:text-lg md:max-w-96 xl:text-xl xl:w-250 xl:font-poppins-l`}
+          >
+            {answer}
+          </div>
         </div>
       </div>
     </section>
