@@ -2,31 +2,31 @@
 
 @font-face {
   font-family: old;
-  src: url("/src/assets/fonts/OldStandardTT-Regular.ttf");
+  src: url("/src/assets/fonts/OldStandardTT-Regular.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: poppins-md;
-  src: url("/src/assets/fonts/Poppins-Medium.ttf");
+  src: url("/src/assets/fonts/Poppins-Medium.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: poppins-rg;
-  src: url("/src/assets/fonts/Poppins-Regular.ttf");
+  src: url("/src/assets/fonts/Poppins-Regular.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: poppins-l;
-  src: url("/src/assets/fonts/Poppins-Light.ttf");
+  src: url("/src/assets/fonts/Poppins-Light.woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: poppins-el;
-  src: url("/src/assets/fonts/Poppins-ExtraLight.ttf");
+  src: url("/src/assets/fonts/Poppins-ExtraLight.woff2");
   font-display: swap;
 }
 
