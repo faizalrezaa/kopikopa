@@ -1,0 +1,42 @@
+interface FaqItem {
+  question: string;
+  answer: string;
+  isOpen: boolean;
+  callback: () => void;
+}
+
+export default function Accordion({
+  question,
+  answer,
+  isOpen,
+  callback,
+}: FaqItem) {
+  return (
+    <section className="w-full">
+      <div className="w-full h-px bg-secondary"></div>
+      <div className="w-full flex flex-col gap-2.5 xl:px-5 cursor-pointer">
+        <div
+          className="flex justify-between items-center py-6"
+          onClick={callback}
+        >
+          <div className="font-medium  w-64 md:text-xl xl:text-2xl xl:w-129">
+            {question}
+          </div>
+          <div className=" text-2xl md:text-xl xl:text-2xl">
+            {isOpen ? "-" : "+"}
+          </div>
+        </div>
+
+        <div
+          className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} grid transition-all duration-400 ease-in `}
+        >
+          <div
+            className={`font-light overflow-hidden -mt-4 pb-7 w-64 md:text-lg md:max-w-96 xl:text-xl xl:w-250 `}
+          >
+            {answer}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
