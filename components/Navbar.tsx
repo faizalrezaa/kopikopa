@@ -41,10 +41,10 @@ export default function Navbar() {
         </a>
       </div>
       <div
-        className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} grid   transition-all duration-300 ease-in  py-6 cursor-pointer`}
+        className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} grid transition-all duration-300 ease-in cursor-pointer`}
       >
         <div className="overflow-hidden">
-          <div className=" flex flex-col items-center gap-4">
+          <div className=" flex flex-col items-center gap-4 py-6">
             <a href="/#about-us" className="uppercase mx-auto">
               tentang kami
             </a>
