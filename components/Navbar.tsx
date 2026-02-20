@@ -40,22 +40,24 @@ export default function Navbar() {
           hubungi kami
         </a>
       </div>
-      <div className={`${isOpen ? "" : ""} `}>
-        <div
-          className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0 hidden"} grid overflow-hidden items-center transition duration-300 gap-3.5 py-6 cursor-pointer`}
-        >
-          <a href="/#about-us" className="uppercase mx-auto">
-            tentang kami
-          </a>
-          <a href="/#product" className="uppercase mx-auto">
-            produk kami
-          </a>
-          <a href="/#location" className="uppercase mx-auto">
-            lokasi
-          </a>
-          <a className="uppercase mx-auto bg-tertiary text-primary py-3 px-6 rounded-3xl text-sm font-medium hover:bg-tertiary-hover">
-            hubungi kami
-          </a>
+      <div
+        className={`${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"} grid   transition-all duration-300 ease-in  py-6 cursor-pointer`}
+      >
+        <div className="overflow-hidden">
+          <div className=" flex flex-col items-center gap-4">
+            <a href="/#about-us" className="uppercase mx-auto">
+              tentang kami
+            </a>
+            <a href="/#product" className="uppercase mx-auto">
+              produk kami
+            </a>
+            <a href="/#location" className="uppercase mx-auto">
+              lokasi
+            </a>
+            <a className="uppercase mx-auto bg-tertiary text-primary py-3 px-6 rounded-3xl text-sm font-medium hover:bg-tertiary-hover">
+              hubungi kami
+            </a>
+          </div>
         </div>
       </div>
     </nav>
