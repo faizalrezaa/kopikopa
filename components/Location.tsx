@@ -34,11 +34,11 @@ export default function Location() {
         </p>
       </div>
 
-      <div className="mt-7 md:px-40 lg:px-70 xl:px-100">
-        <h3 className="px-2 py-3 text-primary bg-tertiary rounded-3xl text-xs text-center mb-3.5">
+      <div className="mt-7 text-[0.5rem] md:text-xs md:px-40 lg:px-70 xl:px-100">
+        <h3 className="px-2 py-3 text-primary bg-tertiary rounded-3xl text-center mb-3.5">
           Alamat: Jl. Soekarno Hatta No. D-505, Malang
         </h3>
-        <h3 className="px-2 py-3 text-primary bg-tertiary rounded-3xl text-xs text-center">
+        <h3 className="px-2 py-3 text-primary bg-tertiary rounded-3xl text-center">
           Jam Buka: Senin – Minggu | 08.00 – 22.00 WIB
         </h3>
       </div>
